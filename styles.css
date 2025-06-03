@@ -53,11 +53,13 @@ h6 {
   color: #666;
 }
 
-.post-img {
-  height: 250px;
-  background-image: url('https://imagenes.eleconomista.com.mx/files/og_thumbnail/uploads/2024/03/14/66e886470dd56.jpeg');
-  background-size: cover;
-  background-position: center;
+img {
+  height: 280px;
+}
+
+figcaption {
+  font-family: cursive;
+  text-align: center;
 }
 
 .post-icons {
@@ -77,6 +79,10 @@ h6 {
   font-size: 14px;
   color: #333;
   line-height: 1.5;
+}
+
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .post-body p:first-child {
