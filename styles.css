@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: #eee;
+  background-color: #000;
   display: flex;
   justify-content: center;
   padding-top: 30px;
@@ -18,19 +18,39 @@ body {
 
 .post-header {
   display: flex;
-
+  justify-content: space-between;
   align-items: center;
   padding: 10px 15px;
   background-color: #fafafa;
   border-bottom: 1px solid #ddd;
 }
 
+.i-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.i-right {
+  display: flex;
+  align-items: center;
+}
+
+.textos {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
 .title {
   margin: 0;
   font-size: 18px;
-  text-align: left;
-  margin-left: -20px;
-  position: relative;
+}
+
+h6 {
+  margin: 2px 0 0 0;
+  font-size: 12px;
+  color: #666;
 }
 
 .post-img {
@@ -44,14 +64,21 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 10px 15px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
-
+.post-icons  {
+  margin-right: 10px;
+  cursor: pointer;
+}
 
 .post-body {
-  padding: 15px;
+  padding: 0 15px 15px;
   font-size: 14px;
   color: #333;
   line-height: 1.5;
+}
+
+.post-body p:first-child {
+  margin-bottom: 8px;
 }
