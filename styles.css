@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.Post {
+  width: 350px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.post-header {
+  display: flex;
+
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #fafafa;
+  border-bottom: 1px solid #ddd;
+}
+
+.title {
+  margin: 0;
+  font-size: 18px;
+  text-align: left;
+  margin-left: -20px;
+  position: relative;
+}
+
+.post-img {
+  height: 250px;
+  background-image: url('https://imagenes.eleconomista.com.mx/files/og_thumbnail/uploads/2024/03/14/66e886470dd56.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.post-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+
+
+
+.post-body {
+  padding: 15px;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+}
